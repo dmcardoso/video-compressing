@@ -11,11 +11,13 @@ compile({
             return next()
         }
     ],
-    name: 'NGCompress',
+    // name: 'NGCompress',
     resources: ['./src/**/*'],
     asset: './src/res/**/*',
+    // clean: true,
     ico: './src/res/icon.png',
-    python: 'C:\\Python27'
+    python: 'C:\\Python27\\python.exe',
+    verbose: true
 }).then(() => {
     console.log('success')
 });
