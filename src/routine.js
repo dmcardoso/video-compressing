@@ -26,11 +26,11 @@ const sync = () => {
     return missingVideos;
 };
 
-const watchFiles = (call) => {
+const watchFiles = (call, notify) => {
     watch(path.resolve(input), {recursive: false}, function (evt, name) {
         if (evt === 'update' && name.match(/.*\.(mp4|avi)/gi)) {
             const video = name.split('\\');
-            call(video[video.length - 1],(res) => notifier(res));
+            call(video[video.length - 1], notify);
         }
     });
 };

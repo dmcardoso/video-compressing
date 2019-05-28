@@ -14,7 +14,6 @@
     "fluent-ffmpeg": "^2.1.2",
     "get-video-duration": "^1.0.3",
     "moment": "^2.24.0",
-    "nexe": "^3.2.0",
     "node-notifier": "^5.4.0",
     "node-watch": "^0.6.2"
   }

@@ -16,7 +16,7 @@ compile({
     asset: './src/res/**/*',
     // clean: true,
     ico: './src/res/icon.png',
-    python: 'C:\\Python27\\python.exe',
+    python: 'C:\\Python27',
     verbose: true
 }).then(() => {
     console.log('success')
