@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build-app": "node build-app.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.0.17",
